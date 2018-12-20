@@ -10,6 +10,6 @@ function palindrom(str) {
       break;
     }
   }
-  
+
   return palindromBool;
 }

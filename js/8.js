@@ -5,7 +5,7 @@ function maxSum(arr) {
 
   for (var i = 1; i <= arr.length; i++) {
     var arrSum = 0;
-    
+
     for (var j = 0; j <= arr.length - i; j++ ) {
       arrSum += arr[j];
     };
