@@ -1,4 +1,4 @@
-var arrNums = [4,5,64,123,8,3,4,45,123];
+var arrNums = [4, 5, 64, 123, 8, 3, 4, 45, 123];
 
 console.log(maxNum(arrNums));
 

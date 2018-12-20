@@ -1,4 +1,4 @@
-var arrNums = [5,23,34,34,1,3,5,20];
+var arrNums = [5, 23, 34, 34, 1, 3, 5, 20];
 
 console.log(arrSum(arrNums));
 

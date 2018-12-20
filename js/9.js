@@ -1,7 +1,7 @@
 console.log(palindrom('aabaa'));
 
 function palindrom(str) {
-  str = str.toLowerCase().replace(/,/g, '').replace(/\s+/g, ''),
+  var str = str.toLowerCase().replace(/,/g, '').replace(/\s+/g, ''),
   palindromBool = true;
 
   for (var i = 0; i < str.length / 2; i++) {

@@ -17,7 +17,7 @@ function bestStudentRating(obj) {
     if (obj[key] > maxRating) {
       maxRating = obj[key];
     }
-  };
+  }
 
   for(var key in obj) {
     if (obj[key] === maxRating) {

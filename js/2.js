@@ -15,22 +15,22 @@ var auto  = {
     }
   },
 
-  startSwitcher: function(val) {
+  startSwitcher: function() {
     if (this.ignition) {
       console.log('Машина ' + this.brand + ' марки ' +this.color + ' цвета поехала');
-      this.start = val;
+      this.start = true;
     } else {
       alert('Ignition off')
     }
   },
 
-  stopSwitcher: function(val) {
+  stopSwitcher: function() {
     if (!this.ignition) {
       this.start = false;
       console.log('Зажигание и так выключено');
     } else {
       this.start = false;
-      this.ignition = false
+      this.ignition = false;
       console.log('Машинка остановилась');
     }
   },
