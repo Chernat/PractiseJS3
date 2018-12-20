@@ -1,5 +1,7 @@
 var arrNums = [4,5,64,123,8,3,4,45,123];
 
+console.log(maxNum(arrNums));
+
 function maxNum(arr) {
   var maxNums = [],
       max = 0;
@@ -16,5 +18,3 @@ function maxNum(arr) {
   }
   return maxNums;
 }
-
-console.log(maxNum(arrNums));

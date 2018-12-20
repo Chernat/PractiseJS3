@@ -1,5 +1,8 @@
 var arr = [43, 23, 57, 54, 60, 41, 10, 60, 23, 47, 60, 12, 59];
 
+bestResult(arr);
+taskOneThree(arr);
+
 function taskOneThree(arr) {
   var max = maxNum(arr);
   for (var i = 0; i < arr.length; i++) {
@@ -31,6 +34,3 @@ function maxNum(arr) {
   }
   return maxNum;
 }
-
-bestResult(arr);
-taskOneThree(arr);

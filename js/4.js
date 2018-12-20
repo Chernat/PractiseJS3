@@ -1,5 +1,7 @@
 var arrNums = [1,2,3,4,5,6,7,8,9];
 
+mixNums(arrNums);
+
 function mixNums(arr) {
   var rand,
       mixNumsArr = [];
@@ -13,5 +15,3 @@ function mixNums(arr) {
   }
   console.log(mixNumsArr)
 }
-
-mixNums(arrNums);

@@ -7,6 +7,7 @@ var studentsRating = {
   tolik: 31
 };
 
+bestStudentRating(studentsRating);
 
 function bestStudentRating(obj) {
   var bestStudent = [],
@@ -19,12 +20,10 @@ function bestStudentRating(obj) {
   };
 
   for(var key in obj) {
-    if (obj[key] == maxRating) {
+    if (obj[key] === maxRating) {
       bestStudent.push(key);
     }
   }
 
   console.log(bestStudent);
 }
-
-bestStudentRating(studentsRating);
