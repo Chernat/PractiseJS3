@@ -2,16 +2,17 @@ var arrNums = [1, -2, 3, 4, -9, 6];
 
 function maxSum(arr) {
   var max = 0;
-      gb = 0;
 
   for (var i = 1; i <= arr.length; i++) {
+    var arrSum = 0;
+    
     for (var j = 0; j <= arr.length - i; j++ ) {
-      console.log(arr.slice(j,j+i));
-    }
+      arrSum += arr[j];
+    };
 
-    if (gb > max) {
-      max = gb;
-    }
+    if (arrSum > max) {
+      max = arrSum;
+    };
   }
 
   return max;
