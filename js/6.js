@@ -12,7 +12,7 @@ function maxNum(arr) {
         max = arr[j];
       }
     }
-    if (arr[i] == max) {
+    if (arr[i] === max) {
       maxNums.push(arr[i]);
     }
   }
